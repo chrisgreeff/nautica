@@ -5,8 +5,5 @@
 
 @import "foundation/settings";
 
-$topbar-height: rem-calc(80);
-$topbar-bg-color: #073073;
-
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import "topbar", "foundation";
