@@ -9,6 +9,8 @@ $accordion-content-active-bg-color: transparent;
 .accordion .accordion-navigation > a {
   text-transform: uppercase;
   font-weight: 600;
+  position: relative;
+  padding-right: 73px !important;
 }
 
 .accordion li.accordion-navigation {
@@ -20,7 +22,7 @@ $accordion-content-active-bg-color: transparent;
   position: absolute;
   right: 0;
   top: 0;
-  height: 57px;
+  height: 100%;
   width: 57px;
   background-color: #C0C1C2;
 
