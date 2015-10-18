@@ -1,4 +1,26 @@
 ---
 layout: default
 ---
-HOME
+<div class="na-content na-content--air">
+  <section class="na-home-links">
+    <div class="row">
+      <div class="large-4 columns text-center">
+        <a class="na-home-link na-home-link--active" href="javascript:void(0)" data-home-link-id="air">
+          <img src="{{ "/images/air-link.png" | prepend: site.baseurl }}" alt="Air">
+        </a>
+      </div>
+      <div class="large-4 columns text-center">
+        <a class="na-home-link" href="javascript:void(0)" data-home-link-id="sea">
+          <img src="{{ "/images/sea-link.png" | prepend: site.baseurl }}" alt="Sea">
+        </a>
+      </div>
+      <div class="large-4 columns text-center">
+        <a class="na-home-link" href="javascript:void(0)" data-home-link-id="land">
+          <img src="{{ "/images/land-link.png" | prepend: site.baseurl }}" alt="Land">
+        </a>
+      </div>
+    </div>
+  </section>
+</div>
+
+<script src="{{ "/js/na-home.js" | prepend: site.baseurl }}"></script>

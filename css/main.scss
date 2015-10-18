@@ -6,4 +6,7 @@
 @import "foundation/settings";
 
 // Import partials from `sass_dir` (defaults to `_sass`)
-@import "topbar", "foundation";
+@import "topbar";
+@import "content";
+@import "home";
+@import "foundation";
