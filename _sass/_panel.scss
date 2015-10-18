@@ -1,0 +1,34 @@
+$panel-bg: rgba(255, 255, 255, .9);
+$panel-border-style: none;
+$panel-padding: rem-calc(40);
+
+.na-panel-container {
+  text-align: center;
+  max-width: 800px;
+  margin: 100px auto;
+}
+
+.na-panel-header-bar {
+  background-color: $na-colour-blue;
+  color: white;
+  padding: 10px 10px 10px 50px;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.na-panel-header {
+  display: inline-block;
+  text-transform: uppercase;
+  color: $na-colour-blue !important;
+  border: 2px solid $na-colour-blue;
+  padding: 10px 20px;
+  font-size: 24px;
+}
+
+.na-panel-sub-header {
+  text-transform: uppercase;
+  color: $na-colour-blue !important;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 1.8 !important;
+}

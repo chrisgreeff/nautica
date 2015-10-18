@@ -1,0 +1,61 @@
+$topbar-height: rem-calc(80);
+$topbar-bg-color: $na-colour-blue;
+
+$topbar-link-text-transform: uppercase;
+$topbar-link-bg-active: $na-colour-blue;
+$topbar-link-bg-hover: $na-colour-blue;
+$topbar-link-bg-active-hover: $na-colour-blue;
+
+$topbar-breakpoint: #{lower-bound(1000px)};
+
+.na-topbar-link-text,
+.na-topbar-link-icon {
+  display: inline-block;
+  margin-top: 25px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: transparent;
+
+  .active & { border-color: white; }
+}
+
+.na-topbar-link-text { padding: 5px 10px; }
+.na-topbar-link-icon {
+  font-size: 21px;
+  width: 38px;
+  text-align: center;
+}
+
+.na-topbar-logo      { height: $topbar-height; }
+
+.top-bar-section li a {
+  line-height: normal !important;
+  height: $topbar-height;
+}
+
+.top-bar .toggle-topbar.menu-icon {
+  // Because content is position fixed, we need to bump the z-index of the menu button.
+  z-index: 2;
+  top: 22px !important;
+}
+
+
+@media (max-width: 1000px) {
+  .top-bar {
+    height: 44px !important;
+
+    &.expanded { height: auto !important; }
+  }
+
+  .top-bar-section li a {
+    height: 44px;
+  }
+
+  .na-topbar-link-text {
+    padding: 0;
+    margin-top: 0;
+    border-color: transparent;
+
+    .active & { border-color: transparent; }
+  }
+}

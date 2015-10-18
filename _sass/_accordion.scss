@@ -1,0 +1,46 @@
+$accordion-navigation-padding: rem-calc(16);
+$accordion-navigation-font-size: rem-calc(16);
+
+$accordion-navigation-bg-color: #EAEBEC;
+$accordion-navigation-font-color: $na-colour-blue;
+$accordion-navigation-active-font-color: $na-colour-blue;
+$accordion-content-active-bg-color: transparent;
+
+.accordion .accordion-navigation > a {
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.accordion li.accordion-navigation {
+  margin-bottom: 8px !important;
+  position: relative;
+}
+
+.na-accordion-navigation-icon {
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 57px;
+  width: 57px;
+  background-color: #C0C1C2;
+
+  &:before {
+    content: '+';
+    color: white;
+    position: absolute;
+    left: 19px;
+    top: -2px;
+
+    font-size: 36px;
+    font-weight: 100;
+  }
+
+  .active & {
+    background-color: #1EA7FC;
+
+    &:before {
+      content: '—';
+      left: 12px;
+    }
+  }
+}

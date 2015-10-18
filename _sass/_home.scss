@@ -1,0 +1,8 @@
+.na-home-links { margin-top: 100px; }
+
+.na-home-link {
+  opacity: 0.5;
+
+  &:hover,
+  &.na-home-link--active { opacity: 1; }
+}

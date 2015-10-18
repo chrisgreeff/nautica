@@ -1,0 +1,13 @@
+.na-content {
+  position: fixed;
+  width: 100%;
+  height: calc(100% - #{$topbar-height});
+  background-size: cover;
+  background-position: center center;
+  overflow-y: auto;
+  padding: 20px;
+}
+
+.na-content--air  { background-image: url('../images/bg-air.jpg'); }
+.na-content--land { background-image: url('../images/bg-land.jpg'); }
+.na-content--sea  { background-image: url('../images/bg-sea.jpg'); }
