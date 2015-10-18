@@ -5,11 +5,11 @@ $panel-padding: rem-calc(40);
 .na-panel-container {
   text-align: center;
   max-width: 800px;
-  margin: 200px auto;
+  margin: 100px auto;
 }
 
 .na-panel-header-bar {
-  background-color: $na-blue;
+  background-color: $na-colour-blue;
   color: white;
   padding: 10px 10px 10px 50px;
   text-align: left;
@@ -19,15 +19,15 @@ $panel-padding: rem-calc(40);
 .na-panel-header {
   display: inline-block;
   text-transform: uppercase;
-  color: $na-blue !important;
-  border: 2px solid $na-blue;
+  color: $na-colour-blue !important;
+  border: 2px solid $na-colour-blue;
   padding: 10px 20px;
   font-size: 24px;
 }
 
 .na-panel-sub-header {
   text-transform: uppercase;
-  color: $na-blue !important;
+  color: $na-colour-blue !important;
   font-size: 12px;
   font-weight: 600;
   line-height: 1.8 !important;

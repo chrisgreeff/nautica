@@ -1,7 +1,30 @@
 $topbar-height: rem-calc(80);
-$topbar-bg-color: $na-blue;
+$topbar-bg-color: $na-colour-blue;
+
 $topbar-link-text-transform: uppercase;
+$topbar-link-bg-active: $na-colour-blue;
+$topbar-link-bg-hover: $na-colour-blue;
+$topbar-link-bg-active-hover: $na-colour-blue;
+
 $topbar-breakpoint: #{lower-bound(1000px)};
+
+.na-topbar-link-text {
+  display: inline-block;
+  margin-top: 25px;
+  padding: 5px 10px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: transparent;
+
+  .active & {
+    border-color: white;
+  }
+}
+
+.top-bar-section li a {
+  line-height: normal !important;
+  height: $topbar-height;
+}
 
 .top-bar .toggle-topbar.menu-icon {
   // Because content is position fixed, we need to bump the z-index of the menu button.
