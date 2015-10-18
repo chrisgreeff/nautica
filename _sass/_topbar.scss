@@ -24,6 +24,7 @@ $topbar-breakpoint: #{lower-bound(1000px)};
   font-size: 21px;
   width: 38px;
   text-align: center;
+  border-color: white;
 }
 
 .na-topbar-logo      { height: $topbar-height; }
@@ -58,4 +59,6 @@ $topbar-breakpoint: #{lower-bound(1000px)};
 
     .active & { border-color: transparent; }
   }
+
+  .na-topbar-icon-li { display: none; }
 }
