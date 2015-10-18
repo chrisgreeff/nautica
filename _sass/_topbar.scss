@@ -8,18 +8,25 @@ $topbar-link-bg-active-hover: $na-colour-blue;
 
 $topbar-breakpoint: #{lower-bound(1000px)};
 
-.na-topbar-link-text {
+.na-topbar-link-text,
+.na-topbar-link-icon {
   display: inline-block;
   margin-top: 25px;
-  padding: 5px 10px;
   border-width: 2px;
   border-style: solid;
   border-color: transparent;
 
-  .active & {
-    border-color: white;
-  }
+  .active & { border-color: white; }
 }
+
+.na-topbar-link-text { padding: 5px 10px; }
+.na-topbar-link-icon {
+  font-size: 21px;
+  width: 38px;
+  text-align: center;
+}
+
+.na-topbar-logo      { height: $topbar-height; }
 
 .top-bar-section li a {
   line-height: normal !important;
@@ -32,9 +39,6 @@ $topbar-breakpoint: #{lower-bound(1000px)};
   top: 22px !important;
 }
 
-.na-topbar-logo {
-  height: $topbar-height;
-}
 
 @media (max-width: 1000px) {
   .top-bar {
@@ -52,8 +56,6 @@ $topbar-breakpoint: #{lower-bound(1000px)};
     margin-top: 0;
     border-color: transparent;
 
-    .active & {
-      border-color: transparent;
-    }
+    .active & { border-color: transparent; }
   }
 }
