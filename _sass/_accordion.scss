@@ -1,0 +1,16 @@
+$accordion-navigation-padding: rem-calc(16);
+$accordion-navigation-font-size: rem-calc(16);
+
+$accordion-navigation-bg-color: #EAEBEC;
+$accordion-navigation-font-color: $na-blue;
+$accordion-navigation-active-font-color: $na-blue;
+$accordion-content-active-bg-color: transparent;
+
+.accordion .accordion-navigation > a {
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.accordion li.accordion-navigation {
+  margin-bottom: 8px !important;
+}

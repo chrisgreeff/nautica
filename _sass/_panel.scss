@@ -8,18 +8,26 @@ $panel-padding: rem-calc(40);
   margin: 200px auto;
 }
 
+.na-panel-header-bar {
+  background-color: $na-blue;
+  color: white;
+  padding: 10px 10px 10px 50px;
+  text-align: left;
+  text-transform: uppercase;
+}
+
 .na-panel-header {
   display: inline-block;
   text-transform: uppercase;
-  color: #073073 !important;
-  border: 2px solid #073073;
+  color: $na-blue !important;
+  border: 2px solid $na-blue;
   padding: 10px 20px;
   font-size: 24px;
 }
 
 .na-panel-sub-header {
   text-transform: uppercase;
-  color: #073073 !important;
+  color: $na-blue !important;
   font-size: 12px;
   font-weight: 600;
   line-height: 1.8 !important;
