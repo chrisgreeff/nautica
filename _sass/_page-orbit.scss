@@ -1,0 +1,17 @@
+.na-page-orbit-container {
+  position: fixed;
+  width: 100%;
+  height: calc(100% - #{$topbar-height});
+}
+
+.orbit-slides-container,
+.orbit-container { height: 100% !important; }
+
+.na-page-orbit {
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+}
+.na-page-orbit--air  { background-image: url('../images/bg-air.jpg'); }
+.na-page-orbit--land { background-image: url('../images/bg-land.jpg'); }
+.na-page-orbit--sea  { background-image: url('../images/bg-sea.jpg'); }
