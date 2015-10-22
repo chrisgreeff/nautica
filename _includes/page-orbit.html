@@ -1,7 +1,13 @@
 <div class="na-page-orbit-container">
   <ul data-orbit>
-    <li {% if page.url == '/index.html' %} data-orbit-slide="1"{% endif %} class="na-page-orbit na-page-orbit--air"></li>
-    <li {% if page.url == '/index.html' %} data-orbit-slide="2"{% endif %} class="na-page-orbit na-page-orbit--sea"></li>
-    <li {% if page.url == '/index.html' %} data-orbit-slide="3"{% endif %} class="na-page-orbit na-page-orbit--land"></li>
+    <li {% if page.url == '/index.html' %} data-orbit-slide="1"{% endif %}
+      class="na-page-orbit na-page-orbit--{{page.title}}-1">
+    </li>
+    <li {% if page.url == '/index.html' %} data-orbit-slide="2"{% endif %}
+      class="na-page-orbit na-page-orbit--{{page.title}}-2">
+    </li>
+    <li {% if page.url == '/index.html' %} data-orbit-slide="3"{% endif %}
+      class="na-page-orbit na-page-orbit--{{page.title}}-3">
+    </li>
   </ul>
 </div>
