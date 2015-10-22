@@ -38,7 +38,7 @@ $accordion-content-active-bg-color: transparent;
   }
 
   .active & {
-    background-color: #1EA7FC;
+    background-color: $na-colour-light-blue;
 
     &:before {
       content: '—';
