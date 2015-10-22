@@ -3,5 +3,6 @@
 .na-home-link {
   opacity: 0.5;
 
-  &:hover { opacity: 1; }
+  &:hover,
+  &.na-home-link--active { opacity: 1; }
 }
