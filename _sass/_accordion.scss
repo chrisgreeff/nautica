@@ -13,6 +13,11 @@ $accordion-content-active-bg-color: transparent;
   padding-right: 73px !important;
 }
 
+.accordion.faqs .accordion-navigation > a {
+  text-transform: none;
+  font-size: .9em;
+}
+
 .accordion li.accordion-navigation {
   margin-bottom: 8px !important;
   position: relative;
