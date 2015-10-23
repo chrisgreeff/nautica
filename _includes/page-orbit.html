@@ -1,5 +1,5 @@
 <div class="na-page-orbit-container">
-  <ul data-orbit>
+  <ul id="na-page-orbit-list" data-orbit>
     <li {% if page.url == '/index.html' %} data-orbit-slide="1"{% endif %}
       class="na-page-orbit na-page-orbit--{{page.title}}-1">
     </li>
@@ -11,3 +11,5 @@
     </li>
   </ul>
 </div>
+
+<script src="{{ "/js/na-page-orbit.js" | prepend: site.baseurl }}"></script>
