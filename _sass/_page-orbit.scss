@@ -4,8 +4,8 @@
   height: calc(100% - #{$topbar-height});
 }
 
-.orbit-slides-container,
-.orbit-container { height: 100% !important; }
+.na-page-orbit-container .orbit-slides-container { height: 100% !important; }
+.na-page-orbit-container .orbit-container { height: 100% !important; }
 
 .orbit-timer { display: none; }
 
