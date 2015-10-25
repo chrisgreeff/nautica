@@ -17,3 +17,44 @@
     font-weight: bold;
   }
 }
+
+input, textarea {
+  border-width: 2px !important;
+  border-color: $na-colour-blue !important;
+}
+
+.na-close-modal {
+  position: absolute;
+  top: 0 !important;
+  right: 0 !important;
+  background-color: $na-colour-light-blue;
+  padding: 20px;
+  font-size: 1rem !important;
+}
+
+.na-contact-copy {
+  font-weight: bold;
+  color: $na-colour-blue;
+  line-height: 1.2 !important;
+}
+
+.reveal-modal {
+  a {
+    color: $na-colour-blue !important;
+    line-height: inherit;
+
+    &:hover,
+    &:focus {
+      color: darken($na-colour-blue, 50%) !important;
+    }
+  }
+}
+
+button {
+  background-color: $na-colour-blue !important;
+  color: white !important;
+  margin-top: 1rem !important;
+  &:hover {
+    color: white !important;
+  }
+}

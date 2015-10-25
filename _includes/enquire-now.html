@@ -4,94 +4,134 @@
 
 
 <div id="enquire" class="reveal-modal" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
-  <h2>Enquire Now</h2>
-  <p>
-    To receive a quote or for more
-    information about any of our services,
-    please call us on +64 9 801 0373 or email
-    us at <a href="mailto:info@nauticashipping.co.nz">info@nauticashipping.co.nz</a>. Or fill
-    in the fields below and we’ll reply as promptly as possible:
-  </p>
-
   <div class="row">
-    <!-- Column One -->
-    <div class="large-6 columns">
-      <!-- Form -->
-      <form action="http://formspree.io/kalemhall@gmail.com" method="POST">
-        <div class="row">
-          <div class="large-12 columns">
-              <input type="text" name="First Name" placeholder="First Name" />
-              <input type="text" name="Last Name" placeholder="Last Name" />
-              <input type="text" name="Phone Number" placeholder="Phone Number" />
-              <input type="email" name="_replyto" placeholder="Email Address" />
-              <button type="hidden" name="_next" value="http://0.0.0.0:4000/nautica/message/"/>Send</button>
+    <div class="large-12 column">
+      <h2 class="na-panel-header">Enquire Now</h2>
+      <p>
+        To receive a quote or for more
+        information about any of our services,
+        please call us on +64 9 801 0373 or email
+        us at <a href="mailto:info@nauticashipping.co.nz">info@nauticashipping.co.nz</a>. Or fill
+        in the fields below and we’ll reply as promptly as possible:
+      </p>
+    </div>
+  </div>
+
+  <form action="http://formspree.io/kalemhall@gmail.com" method="POST">
+    <div class="row">
+      <!-- Column One -->
+      <div class="large-6 columns">
+        <!-- Form -->
+          <div class="row">
+            <div class="large-12 columns">
+                <input type="text" name="First Name" placeholder="First Name" />
+                <input type="text" name="Last Name" placeholder="Last Name" />
+                <input type="text" name="Phone Number" placeholder="Phone Number" />
+                <input type="email" name="_replyto" placeholder="Email Address" />
+            </div>
           </div>
-        </div>
-      </form>
+      </div>
+
+      <!-- Column Two -->
+      <div class="large-6 columns">
+        <p class="na-contact-copy">
+          PHYSICAL ADDRESS:<br>
+          Unit 6, 501 Karangahape Road,<br>
+          Freemans Bay, Auckland, NZ
+        </p>
+        <p class="na-contact-copy">
+          Postal address: PO Box 133189,<br>
+          Eastridge, Auckland, NZ
+        </p>
+        <p class="na-contact-copy">
+          Phone: +64 9 801 0373<br>
+          Email: info@nauticashipping.co.nz
+        </p>
+      </div>
     </div>
 
-    <!-- Column Two -->
-    <div class="large-6 columns">
-      Web: www.nauticashipping.co.nz
-      Phone: +64 9 801 0373
-      Email: info@nauticashipping.co.nz
-      Physical address: Unit 6, 501 Karangahape Road, Freemans Bay, Auckland, NZ
-      Postal address: PO Box 133189, Eastridge, Auckland, NZ
+    <div class="row">
+      <div class="large-12 columns">
+          <textarea placeholder="Message"></textarea>
+      </div>
     </div>
-  </div>
 
-  <div class="row">
-    <div class="large-12 columns">
-        <textarea placeholder="Message"></textarea>
+    <div class="row">
+      <div class="large-12 columns">
+        <button type="hidden" name="_next" value="http://0.0.0.0:4000/nautica/message/"/>SUBMIT</button>
+      </div>
     </div>
-  </div>
 
-  <a class="close-reveal-modal" aria-label="Close">&#215;</a>
+  </form>
+
+  <a class="close-reveal-modal na-close-modal" aria-label="Close">
+    <img src="{{ "/images/close-modal.png" | prepend: site.baseurl }}"/>
+  </a>
 </div>
 
 
 <div id="contactUs" class="reveal-modal" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
-  <h2>Contact Us</h2>
-  <p>
-    To receive a quote or for more
-    information about any of our services,
-    please call us on +64 9 801 0373 or email
-    us at <a href="mailto:info@nauticashipping.co.nz">info@nauticashipping.co.nz</a>. Or fill
-    in the fields below and we’ll reply as promptly as possible:
-  </p>
-
   <div class="row">
-    <!-- Column One -->
-    <div class="large-6 columns">
-      <!-- Form -->
-      <form action="http://formspree.io/kalemhall@gmail.com" method="POST">
-        <div class="row">
-          <div class="large-12 columns">
-              <input type="text" name="First Name" placeholder="First Name" />
-              <input type="text" name="Last Name" placeholder="Last Name" />
-              <input type="text" name="Phone Number" placeholder="Phone Number" />
-              <input type="email" name="_replyto" placeholder="Email Address" />
-              <button type="hidden" name="_next" value="http://0.0.0.0:4000/nautica/message/"/>Send</button>
+    <div class="large-12 column">
+      <h2 class="na-panel-header">Contact Us</h2>
+      <p>
+        To receive a quote or for more
+        information about any of our services,
+        please call us on +64 9 801 0373 or email
+        us at <a href="mailto:info@nauticashipping.co.nz">info@nauticashipping.co.nz</a>. Or fill
+        in the fields below and we’ll reply as promptly as possible:
+      </p>
+    </div>
+  </div>
+
+  <form action="http://formspree.io/kalemhall@gmail.com" method="POST">
+    <div class="row">
+      <!-- Column One -->
+      <div class="large-6 columns">
+        <!-- Form -->
+          <div class="row">
+            <div class="large-12 columns">
+                <input type="text" name="First Name" placeholder="First Name" />
+                <input type="text" name="Last Name" placeholder="Last Name" />
+                <input type="text" name="Phone Number" placeholder="Phone Number" />
+                <input type="email" name="_replyto" placeholder="Email Address" />
+            </div>
           </div>
-        </div>
-      </form>
+      </div>
+
+      <!-- Column Two -->
+      <div class="large-6 columns">
+        <p class="na-contact-copy">
+          PHYSICAL ADDRESS:<br>
+          Unit 6, 501 Karangahape Road,<br>
+          Freemans Bay, Auckland, NZ
+        </p>
+        <p class="na-contact-copy">
+          Postal address: PO Box 133189,<br>
+          Eastridge, Auckland, NZ
+        </p>
+        <p class="na-contact-copy">
+          Phone: +64 9 801 0373<br>
+          Email: info@nauticashipping.co.nz
+        </p>
+      </div>
     </div>
 
-    <!-- Column Two -->
-    <div class="large-6 columns">
-      Web: www.nauticashipping.co.nz
-      Phone: +64 9 801 0373
-      Email: info@nauticashipping.co.nz
-      Physical address: Unit 6, 501 Karangahape Road, Freemans Bay, Auckland, NZ
-      Postal address: PO Box 133189, Eastridge, Auckland, NZ
+    <div class="row">
+      <div class="large-12 columns">
+          <textarea placeholder="Message"></textarea>
+      </div>
     </div>
-  </div>
 
-  <div class="row">
-    <div class="large-12 columns">
-        <textarea placeholder="Message"></textarea>
+    <div class="row">
+      <div class="large-12 columns">
+        <button type="hidden" name="_next" value="http://0.0.0.0:4000/nautica/message/"/>SUBMIT</button>
+      </div>
     </div>
-  </div>
 
-  <a class="close-reveal-modal" aria-label="Close">&#215;</a>
+  </form>
+
+  <a class="close-reveal-modal na-close-modal" aria-label="Close">
+    <img src="{{ "/images/close-modal.png" | prepend: site.baseurl }}"/>
+  </a>
 </div>
