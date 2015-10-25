@@ -41,6 +41,10 @@ $topbar-breakpoint: #{lower-bound(1000px)};
 .top-bar-section li a {
   line-height: normal !important;
   height: $topbar-height;
+  padding: 0 10px 0 0 !important;
+  &:first-child {
+    padding-left: 1.66667rem !important;
+  }
 }
 
 .top-bar-section ul li {
