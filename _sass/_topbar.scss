@@ -27,11 +27,24 @@ $topbar-breakpoint: #{lower-bound(1000px)};
   border-color: white;
 }
 
-.na-topbar-logo      { height: $topbar-height; }
+.na-topbar-logo-container {
+  display: flex;
+  align-items: center;
+  height: 5rem;
+}
+
+.na-topbar-logo {
+  height: 50%;
+  padding: 0 1.66667rem;
+}
 
 .top-bar-section li a {
   line-height: normal !important;
   height: $topbar-height;
+}
+
+.top-bar-section ul li {
+  background-color: transparent !important;
 }
 
 .top-bar .toggle-topbar.menu-icon {

@@ -5,7 +5,7 @@
 
   <section class="top-bar-section">
     <ul class="left">
-      <li class="na-topbar-icon-li">
+      <!-- <li class="na-topbar-icon-li">
         <a class="prs" href="javascript:void(0)">
           <span class="na-topbar-link-icon"><i class="fa fa-phone"></i></span>
         </a>
@@ -14,7 +14,7 @@
         <a class="pls" href="javascript:void(0)">
           <span class="na-topbar-link-icon"><i class="fa fa-envelope"></i></span>
         </a>
-      </li>
+      </li> -->
       <li{% if page.url == '/index.html' %} class="active"{% endif %}>
         <a href="/nautica/">
           <span class="na-topbar-link-text">Home</span>
@@ -41,5 +41,8 @@
         </a>
       </li>
     </ul>
+    <div class="na-topbar-logo-container right">
+      <img class="na-topbar-logo right" src="{{ "/images/nautica-logo.png" | prepend: site.baseurl }}" />
+    </div>
   </section>
 </nav>
