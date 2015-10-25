@@ -1,0 +1,26 @@
+.na-quotes {
+  .na-quotes-container {
+    background-color: rgba(230,230,230,.9);
+    padding: 50px 50px 20px 50px;
+    padding-top: 30px;
+  }
+  p {
+    font-style: italic;
+    font-size: .9em;
+    text-align: center;
+  }
+}
+
+.na-quotes-blue {
+  .na-quotes-container {
+    background-color: rgba(7,48,115,.9);
+    padding: 50px 50px 20px 50px;
+    padding-top: 30px;
+  }
+  p {
+    font-style: italic;
+    font-size: .9em;
+    text-align: center;
+    color: white;
+  }
+}

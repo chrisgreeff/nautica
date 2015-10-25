@@ -3,7 +3,7 @@ layout: default
 title: home
 ---
 <section class="na-home-links">
-  <div class="row">
+  <div class="row row-first">
     <div class="large-4 columns text-center">
       <a class="na-home-link na-home-link--0 na-home-link--active" href="javascript:void(0)" data-orbit-link="1">
         <img src="{{ "/images/air-link.png" | prepend: site.baseurl }}" alt="Air">
@@ -23,23 +23,40 @@ title: home
 </section>
 
 <section class="na-quotes">
-  <div class="row">
+  <div class="row row-first">
     <div class="column">
-      <ul data-orbit
-          data-options="animation:fade;
-                        animation_speed:1000;
-                        timer_speed:8000;
-                        bullets:false;">
-        <li>
-          Hi Gerry, Just a quick note to say a big thanks to you for making this shipment possible. You have made the whole thing easy and I am looking forward to working with you on future shipments. Cheers - Paul Gill, Managing Director of P&C Contractors Ltd.
-        </li>
-        <li>
-          Nautica Shipping and Logistics has been a great asset to our business. We needed a company we could rely on and we certainly got that with Nautica. Thanks again guys, looking forward to working together again on the next project. Regards, Greg Yeo – Project Manager at 8 Hereford Ltd.
-        </li>
-        <li>
-          I have dealt with Gerry on many shipping projects over the past 6 years. He provides a great service and even better pricing to match. John Love, Managing Director from Love & Co.
-        </li>
-      </ul>
+      <div class="na-quotes-container">
+        <ul data-orbit
+            data-options="animation:fade;
+                          animation_speed:1000;
+                          timer_speed:3000;
+                          bullets:false;">
+          <li>
+            <p>
+              Hi Gerry, Just a quick note to say a big thanks to you for making this shipment possible. You have made the whole thing easy and I am looking forward to working with you on future shipments.
+            </p>
+            <p>
+              <strong>Paul Gill, Managing Director of P&C Contractors Ltd</strong>
+            </p>
+          </li>
+          <li>
+            <p>
+              Nautica Shipping and Logistics has been a great asset to our business. We needed a company we could rely on and we certainly got that with Nautica. Thanks again guys, looking forward to working together again on the next project.
+            </p>
+            <p>
+              <strong>Greg Yeo – Project Manager at 8 Hereford Ltd</strong>
+            </p>
+          </li>
+          <li>
+            <p>
+              I have dealt with Gerry on many shipping projects over the past 6 years. He provides a great service and even better pricing to match.
+            </p>
+            <p>
+              <strong>John Love, Managing Director from Love & Co</strong>
+            </p>
+          </li>
+        </ul>
+      </div>
     </div>
   </div>
 </section>
