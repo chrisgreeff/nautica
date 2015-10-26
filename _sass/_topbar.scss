@@ -79,6 +79,10 @@ $topbar-breakpoint: #{lower-bound(1000px)};
     background-color: $na-colour-blue;
   }
 
+  .reveal-modal {
+    z-index: 7000 !important;
+  }
+
   .na-topbar-logo-container {
     display: none;
   }

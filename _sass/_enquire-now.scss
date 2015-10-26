@@ -39,6 +39,7 @@ input, textarea {
 }
 
 .reveal-modal {
+  z-index: 7000 !important;
   a {
     color: $na-colour-blue !important;
     line-height: inherit;
