@@ -8,6 +8,10 @@ $topbar-link-bg-active-hover: $na-colour-blue;
 
 $topbar-breakpoint: #{lower-bound(1000px)};
 
+.na-topbar-mobile {
+  display: none;
+}
+
 .na-topbar-link-text,
 .na-topbar-link-icon {
   display: inline-block;
@@ -60,13 +64,33 @@ $topbar-breakpoint: #{lower-bound(1000px)};
 
 @media (max-width: 1000px) {
   .top-bar {
-    height: 44px !important;
+    height: 60px !important;
+    z-index: 3000;
 
     &.expanded { height: auto !important; }
   }
 
   .top-bar-section li a {
-    height: 44px;
+    height: 60px;
+  }
+
+  .top-bar-section ul {
+    padding-top: 60px !important;
+    background-color: $na-colour-blue;
+  }
+
+  .na-topbar-logo-container {
+    display: none;
+  }
+
+  .na-topbar-mobile {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 4000;
+    height: 60px;
+    padding: 15px 17px;
   }
 
   .na-topbar-link-text {
@@ -78,4 +102,20 @@ $topbar-breakpoint: #{lower-bound(1000px)};
   }
 
   .na-topbar-icon-li { display: none; }
+}
+
+.top-bar .toggle-topbar.menu-icon a {
+  height: 42px !important;
+}
+
+.top-bar .toggle-topbar.menu-icon a span::after {
+  content: "";
+  display: block;
+  height: 0;
+  position: absolute;
+  margin-top: -8px;
+  top: 50%;
+  right: 1.66667rem;
+  box-shadow: 0 0 0 2px #FFFFFF, 0 10px 0 2px #FFFFFF, 0 20px 0 2px #FFFFFF !important;
+  width: 25px !important;
 }
