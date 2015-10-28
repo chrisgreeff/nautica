@@ -99,7 +99,7 @@ $topbar-breakpoint: #{lower-bound(1000px)};
 
   .na-topbar-link-text {
     padding: 0;
-    margin-top: 0;
+    margin-top: 20px;
     border-color: transparent;
 
     .active & { border-color: transparent; }
