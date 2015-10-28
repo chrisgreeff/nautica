@@ -73,7 +73,7 @@
   margin: 0 !important;
   background: none !important;
   border: none !important;
-  color: $na-colour-blue !important;
+  color: white !important;
   font-size: 32px !important;
 
   &::-webkit-input-placeholder { color: white; }
@@ -84,5 +84,6 @@
   &:focus {
     // CLICK STYLES GO IN HERE!
     background-color: white !important;
+    color: $na-colour-blue !important;
   }
 }
