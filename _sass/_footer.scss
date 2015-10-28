@@ -1,7 +1,51 @@
 .na-footer-subscribe {
   background-color: $na-colour-blue;
+
 }
 
 .na-footer-main {
   background-color: white;
+  margin-top: 100px;
+  padding-top: 50px;
+  padding-bottom: 100px;
+  h2 {
+    font-size: 18px;
+    color: $na-colour-blue;
+    margin-botom: 20px;
+    font-weight: bold;
+  }
+  p, a {
+    font-size: 14px;
+    color: $na-colour-blue;
+    margin-bottom: 5px;
+  }
+  .columns {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+
+.na-copywrite {
+  margin-top: 30px;
+}
+
+.social-icons {
+  margin-top: 55px;
+  img {
+    margin-right: 5px;
+  }
+}
+
+.na-footer-download {
+  img, button {
+    width: 100%;
+  }
+  button {
+    font-weight: bold;
+  }
+  .download-brochure {
+    background-color: white;
+    color: $na-colour-blue;
+    border: 3px solid $na-colour-blue;
+  }
 }

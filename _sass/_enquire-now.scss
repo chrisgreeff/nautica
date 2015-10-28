@@ -52,10 +52,10 @@ input, textarea {
 }
 
 button {
-  background-color: $na-colour-blue !important;
-  color: white !important;
-  margin-top: 1rem !important;
+  background-color: $na-colour-blue;
+  color: white;
+  margin-top: 1rem;
   &:hover {
-    color: white !important;
+    color: white;
   }
 }

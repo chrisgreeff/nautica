@@ -14,11 +14,12 @@
 @import "accordion";
 @import "surgical";
 @import "modal";
-@import "enquire-now";
 @import "quotes";
-@import "footer";
+
 
 // Make sure overides are before this line.
 @import "page-orbit";
 @import "foundation";
 @import "font-awesome/font-awesome";
+@import "enquire-now";
+@import "footer";
