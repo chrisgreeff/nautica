@@ -1,5 +1,6 @@
 $topbar-height: rem-calc(80);
 $topbar-bg-color: $na-colour-blue;
+$topbar-responsive-height: rem-calc(60);
 
 $topbar-link-text-transform: uppercase;
 $topbar-link-bg-active: $na-colour-blue;
@@ -64,18 +65,18 @@ $topbar-breakpoint: #{lower-bound(1000px)};
 
 @media (max-width: 1000px) {
   .top-bar {
-    height: 60px !important;
+    height: $topbar-responsive-height !important;
     z-index: 3000;
 
     &.expanded { height: auto !important; }
   }
 
   .top-bar-section li a {
-    height: 60px;
+    height: $topbar-responsive-height;
   }
 
   .top-bar-section ul {
-    padding-top: 60px !important;
+    padding-top: $topbar-responsive-height !important;
     background-color: $na-colour-blue;
   }
 
@@ -93,7 +94,7 @@ $topbar-breakpoint: #{lower-bound(1000px)};
     top: 0;
     left: 0;
     z-index: 4000;
-    height: 60px;
+    height: $topbar-responsive-height;
     padding: 15px 17px;
   }
 
