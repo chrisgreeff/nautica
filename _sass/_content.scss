@@ -30,3 +30,7 @@
 .row-first {
   width: 70% !important;
 }
+
+@media (max-width: 1000px) {
+  .na-content { height: calc(100% - #{$topbar-responsive-height}); }
+}

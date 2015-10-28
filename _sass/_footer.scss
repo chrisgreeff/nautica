@@ -1,13 +1,13 @@
 .na-footer-subscribe {
   background-color: $na-colour-blue;
-
+  margin-top: 100px;
 }
 
 .na-footer-main {
   background-color: white;
-  margin-top: 100px;
   padding-top: 50px;
   padding-bottom: 100px;
+
   h2 {
     font-size: 18px;
     color: $na-colour-blue;
@@ -47,5 +47,42 @@
     background-color: white;
     color: $na-colour-blue;
     border: 3px solid $na-colour-blue;
+  }
+}
+
+.na-footer-form {
+  position: relative;
+  height: 100%;
+  padding: 10px;
+  padding-right: 160px;
+  height: 75px;
+}
+
+.na-footer-form-button {
+  right: 0;
+  top: 12px;
+  position: absolute;
+  background-color: white;
+  color: $na-colour-blue;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.na-footer-input {
+  height: 100% !important;
+  margin: 0 !important;
+  background: none !important;
+  border: none !important;
+  color: $na-colour-blue !important;
+  font-size: 32px !important;
+
+  &::-webkit-input-placeholder { color: white; }
+  &:-moz-placeholder { /* Firefox 18- */ color: white;   }
+  &::-moz-placeholder {  /* Firefox 19+ */ color: white;   }
+  &:-ms-input-placeholder {   color: white;   }
+
+  &:focus {
+    // CLICK STYLES GO IN HERE!
+    background-color: white !important;
   }
 }
