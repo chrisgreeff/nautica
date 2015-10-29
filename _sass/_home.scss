@@ -1,4 +1,9 @@
-.na-home-links { margin: 50px 0; }
+.na-home-links {
+  margin: 50px 0;
+  .icon-images {
+    max-width: 80%;
+  }
+}
 
 .na-home-link {
   opacity: 0.5;

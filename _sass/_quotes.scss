@@ -1,12 +1,19 @@
 .na-quotes {
   .na-quotes-container {
     background-color: rgba(230,230,230,.9);
-    padding: 50px 50px 20px 50px;
-    padding-top: 30px;
+    padding: 20px;
+    ul {
+      margin-bottom: 0px;
+    }
+    li {
+      list-style: none;
+    }
   }
   p {
     font-style: italic;
     text-align: center;
+    font-size: .9em;
+    margin-bottom: 0px;
   }
 }
 
@@ -15,10 +22,18 @@
     background-color: rgba(7,48,115,.9);
     padding: 50px 50px 20px 50px;
     padding-top: 30px;
+    ul {
+      margin-bottom: 0px;
+    }
+    li {
+      list-style: none;
+    }
   }
   p {
     font-style: italic;
     text-align: center;
     color: white;
+    font-size: .9em;
+    margin-bottom: 0px;
   }
 }
