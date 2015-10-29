@@ -32,5 +32,17 @@
 }
 
 @media (max-width: 1000px) {
-  .na-content { height: calc(100% - #{$topbar-responsive-height}); }
+  .na-content {
+    height: calc(100% - #{$topbar-responsive-height});
+    padding: 20px;
+  }
+  footer {
+    margin: 0 -20px;
+  }
+  .row-first {
+    width: 100% !important;
+  }
+  .na-footer-input {
+    font-size: 16px !important;
+  }
 }
