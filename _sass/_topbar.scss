@@ -33,8 +33,7 @@ $topbar-breakpoint: #{lower-bound(1000px)};
 }
 
 .na-topbar-logo-container {
-  display: flex;
-  align-items: center;
+  margin-top: 20px;
   height: 5rem;
 }
 
