@@ -18,17 +18,17 @@
     </div>
   </div>
 
-  <form action="http://formspree.io/info@nauticashipping.co.nz" method="POST">
+  <form id="enquire" name="enquire" method="post" action="/enquire.php">
     <div class="row">
       <!-- Column One -->
       <div class="large-6 columns">
         <!-- Form -->
           <div class="row">
             <div class="large-12 columns">
-                <input type="text" name="First Name" placeholder="First Name" />
-                <input type="text" name="Last Name" placeholder="Last Name" />
-                <input type="text" name="Phone Number" placeholder="Phone Number" />
-                <input type="email" name="_replyto" placeholder="Email Address" />
+                <input type="text" name="firstname" placeholder="First Name" />
+                <input type="text" name="lastname" placeholder="Last Name" />
+                <input type="text" name="phone" placeholder="Phone Number" />
+                <input type="email" name="email" placeholder="Email Address" />
             </div>
           </div>
       </div>
@@ -53,13 +53,13 @@
 
     <div class="row">
       <div class="large-12 columns">
-          <textarea type="text" placeholder="Message"></textarea>
+          <textarea type="text" name="message" placeholder="Message"></textarea>
       </div>
     </div>
 
     <div class="row">
       <div class="large-12 columns">
-        <button type="hidden" name="_next" value="/message/"/>SUBMIT</button>
+        <button  type="submit" id="form-submit"/>SUBMIT</button>
       </div>
     </div>
 
