@@ -18,17 +18,17 @@
     </div>
   </div>
 
-  <form id="enquire" name="enquire" method="post" action="/enquire.php">
+  <form name="enquireform" method="post" action="enquire.php">
     <div class="row">
       <!-- Column One -->
       <div class="large-6 columns">
         <!-- Form -->
           <div class="row">
             <div class="large-12 columns">
-                <input type="text" name="firstname" placeholder="First Name" />
-                <input type="text" name="lastname" placeholder="Last Name" />
-                <input type="text" name="phone" placeholder="Phone Number" />
-                <input type="email" name="email" placeholder="Email Address" />
+                <input type="text" name="first_name" placeholder="First Name" />
+                <input type="text" name="last_name" placeholder="Last Name" />
+                <input type="text" name="telephone" placeholder="Phone Number" />
+                <input type="text" name="email" placeholder="Email Address" />
             </div>
           </div>
       </div>
@@ -53,13 +53,13 @@
 
     <div class="row">
       <div class="large-12 columns">
-          <textarea type="text" name="message" placeholder="Message"></textarea>
+          <textarea name="comments" placeholder="Message"></textarea>
       </div>
     </div>
 
     <div class="row">
       <div class="large-12 columns">
-        <button  type="submit" id="form-submit"/>SUBMIT</button>
+        <button type="submit" value="Submit"/>SUBMIT</button>
       </div>
     </div>
 
