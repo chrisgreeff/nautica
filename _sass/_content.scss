@@ -22,19 +22,20 @@
   background-position: center center;
   overflow-y: auto;
   padding: 20px 0 0 0;
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  flex-direction: -webkit-column;
-  flex-direction: -moz-column;
-  flex-direction: -ms-column;
-  flex-direction: column;
-  justify-content: -webkit-space-between;
-  justify-content: -moz-space-between;
-  justify-content: -ms-space-between;
-  justify-content: space-between;
+  display:block;
+  // display: -webkit-box;
+  // display: -moz-box;
+  // display: -ms-flexbox;
+  // display: -webkit-flex;
+  // display: flex;
+  // flex-direction: -webkit-column;
+  // flex-direction: -moz-column;
+  // flex-direction: -ms-column;
+  // flex-direction: column;
+  // justify-content: -webkit-space-between;
+  // justify-content: -moz-space-between;
+  // justify-content: -ms-space-between;
+  // justify-content: space-between;
 }
 
 .row-first {
