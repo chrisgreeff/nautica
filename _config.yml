@@ -1,14 +1,9 @@
 # Site settings
 title: Nautica
-email: your-email@domain.com
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+email: info@nauticashipping.co.nz
+description: Nautica Shipping provides comprehensive expert shipping and logistics services for vehicles and automotive parts, agricultural equipment and machinery, household goods and furniture, construction and building materials, food products (including dry, chilled and frozen goods), health and cosmetic products and clothing and retail goods.
 baseurl: "/" # the subpath of your site, e.g. /blog/
-url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
+url: "http://nauticashipping.co.nz" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
