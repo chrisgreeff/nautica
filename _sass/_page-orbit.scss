@@ -38,6 +38,10 @@
 .na-page-orbit--testimonials-2 { background-image: url('../images/orbit/testimonials/2.jpg'); }
 .na-page-orbit--testimonials-3 { background-image: url('../images/orbit/testimonials/3.jpg'); }
 
+.na-page-orbit--news-press-1 { background-image: url('../images/orbit/testimonials/1.jpg'); }
+.na-page-orbit--news-press-2 { background-image: url('../images/orbit/testimonials/2.jpg'); }
+.na-page-orbit--news-press-3 { background-image: url('../images/orbit/testimonials/3.jpg'); }
+
 @media (max-width: 1000px) {
   .na-page-orbit-container { height: calc(100% - #{$topbar-responsive-height}); }
 }

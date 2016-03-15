@@ -45,3 +45,27 @@ $panel-padding: rem-calc(40);
     margin-bottom: 5px;
   }
 }
+
+.na-download-container {
+  display: flex;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #E6E4E4;
+}
+
+.na-downlaod-image {
+  width: 150px;
+}
+
+.na-download-content {
+  padding-left: 20px;
+  flex: 6;
+}
+
+.na-downlaod-image-container {
+  flex: 1;
+}
+
+.na-download-header {
+  margin-bottom: 0px;
+}
